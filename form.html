@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="https://www.google.com/search" method="get">
+        <input type="hidden" id="q" name="q">
+
+        <label for="idnombre">Nombre:</label>
+        <input id="idnombre" type="text" name="nombre">
+
+        <label for="idapellido">Apellido:</label>
+        <input id="idapellido" type="text" name="apellido">
+
+        <label for="idemail">Email:</label>
+        <input id="idemail" type="email" name="email">
+
+        <label for="idcontra">Contraseña:</label>
+        <input id="idcontra" type="password" name="contra">
+
+        <input id="rojo" type="radio" name="color" value="rojo">
+        <label for="rojo">Rojo</label>
+        <input id="blanco" type="radio" name="color" value="blanco">
+        <label for="blanco">Blanco</label>
+        <input id="negro" type="radio" name="color" value="negro">
+        <label for="negro">Negro</label>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Resetear">
+        
+        <a href="index.html" class="button">Volver</a>
+    </form>
+</body>
+</html>
