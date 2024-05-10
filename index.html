@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DAW-04</title>
+    <title>DAW-05</title>
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/52b93ef4f1.js" crossorigin="anonymous"></script>
@@ -15,11 +15,24 @@
         <div class="divHeader">
             <div class="divLeft">
                 <i class="fa-solid fa-bars"></i>
-                <span class="espnHeader">ESPN</span>
+                <span class="espnHeader">ESPN</span>                
             </div>
             <div class="divRight">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-regular fa-circle-user"></i>
+                <div class="divRightFirst">
+                    <ul>
+                        <li><a href="#">Fútbol</a></li>
+                        <li><a href="#">Rugby</a></li>
+                        <li><a href="#">Tenis</a></li>
+                        <li><a href="#">F1</a></li>
+                        <li><a href="#">Básquetball</a></li>
+                        <li><a href="#">Hockey</a></li>
+
+                    </ul>
+                </div>
+                <div class="divRightSecond">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-regular fa-circle-user"></i>
+                </div>  
             </div>                
         </div>
         <nav class="navHeader">            
@@ -33,10 +46,11 @@
                 <li><a href="#">Ligas</a></li>
                 <li><a href="#">Resultados</a></li>
                 <li><a href="#">Posiciones</a></li>
-                <li><a href="#">Equipos</a></li>
-                <li><a href="#">Altas y Bajas</a></li>
-                <li><a href="#">Calendario</a></li>
-                <li><a href="#">Todos los torneos</a></li>
+                <li class="navHeaderA"><a href="#">Equipos</a></li>
+                <li class="navHeaderA"><a href="#">Altas y Bajas</a></li>
+                <li class="navHeaderA"><a href="#">Calendario</a></li>
+                <li class="navHeaderA"><a href="#">Todos los torneos</a></li>
+                <li class="navHeaderMore"><a href="#">Más</a></li>
             </ul>
         </nav>
     </header>
@@ -137,7 +151,7 @@
                 <aside>
                     <figure>
                         <h4>¡La UEFA Champions League se vive en Star+!</h4>
-                        <img src="Images/Image 7.webp" width="350px" height="150px" alt="Foto Vinicius">
+                        <img class="imgStarPlus" src="Images/Image 7.webp" alt="Foto Vinicius">
                         <figcaption>
                             <span>
                                 <p>No te pierdas ningún partido del torneo de clubes más importante de Europa. <strong><a href="https://starplus.com/editorial/uefa-champions-league">Star+</a></strong></p>
